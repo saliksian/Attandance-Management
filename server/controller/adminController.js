@@ -174,10 +174,10 @@ module.exports = {
             }
             const avatar = gravatar.url(email, { s: '200', r: 'pg', d: 'mm' })
             let departmentHelper;
-            if (department === "C.S.E") {
+            if (department === "S.E") {
                 departmentHelper = "01"
             }
-            else if (department === "E.C.E") {
+            else if (department === "C.S") {
                 departmentHelper = "02"
             }
             else if (department === "I.T") {
@@ -282,10 +282,10 @@ module.exports = {
                 d: 'mm' // Default
             });
             let departmentHelper;
-            if (department === "C.S.E") {
+            if (department === "S.E") {
                 departmentHelper = "01"
             }
-            else if (department === "E.C.E") {
+            else if (department === "C.S") {
                 departmentHelper = "02"
             }
             else if (department === "I.T") {

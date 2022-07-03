@@ -86,9 +86,9 @@ const AdminAddSubject = () => {
                                                 'is-invalid': error.department
                                             })} id="departmentId">
                                             <option>Select</option>
-                                            <option value="E.C.E">E.C.E</option>
-                                            <option value="E.E.E">E.E.E</option>
-                                            <option value="C.S.E">C.S.E</option>
+                                            <option value="C.S">C.S</option>
+                                            <option value="LAW">LAW</option>
+                                            <option value="S.E">S.E</option>
                                             <option value="I.T">I.T</option>
                                             <option value="Mechanical">Mechanical</option>
                                             <option value="Civil">Civil</option>
@@ -96,7 +96,7 @@ const AdminAddSubject = () => {
                                         {error.department && (<div className="invalid-feedback">{error.department}</div>)}
                                     </div>
                                     <div className="form-group">
-                                        <label htmlFor="yearId">Year</label>
+                                        <label htmlFor="yearId">Semester</label>
                                         <select onChange={(e) => setYear(e.target.value)} className={classnames("form-control",
                                             {
                                                 'is-invalid': error.year
@@ -107,6 +107,10 @@ const AdminAddSubject = () => {
                                             <option value="2">2</option>
                                             <option value="3">3</option>
                                             <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                            <option value="8">8</option>
                                         </select>
 
                                         {error.year && (<div className="invalid-feedback">{error.year}</div>)}

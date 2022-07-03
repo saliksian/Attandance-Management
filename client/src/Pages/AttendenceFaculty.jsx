@@ -91,7 +91,7 @@ const AttendenceFaculty = () => {
                                 {error.department && (<div classNameName="invalid-feedback">{error.department}</div>)}
                             </div>
                             <div className="form-group">
-                                <label htmlFor="yearId">Year</label>
+                                <label htmlFor="yearId">Semester</label>
                                 <select onChange={(e) => setYear(e.target.value)} className={classnames("form-control",
                                     {
                                         'is-invalid': error.year
@@ -102,6 +102,10 @@ const AttendenceFaculty = () => {
                                     <option value="2">2</option>
                                     <option value="3">3</option>
                                     <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
                                 </select>
 
                                 {error.year && (<div classNameName="invalid-feedback">{error.year}</div>)}

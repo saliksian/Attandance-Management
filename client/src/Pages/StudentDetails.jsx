@@ -88,12 +88,12 @@ const StudentDetails = () => {
                                             <label htmlFor="branchId">Branch</label>
                                             <select onChange={(e) => setDepartment(e.target.value)} className="form-control" id="bramchId">
                                                 <option>Select</option>
-                                                <option value="E.C.E">E.C.E</option>
-                                                <option value="E.E.E" >E.E.E</option>
+                                                <option value="C.S">C.S</option>
+                                                <option value="LAW" >LAW</option>
                                                 <option value="Mechanical">Mechanical</option>
                                                 <option value="Civil">Civil</option>
                                                 <option value="I.T">I.T</option>
-                                                <option value="C.S.E">C.S.E</option>
+                                                <option value="S.E">S.E</option>
                                             </select>
                                         </div>
                                         <div className="form-group">

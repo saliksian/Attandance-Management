@@ -70,7 +70,7 @@ const FacultyUpdateProfile = () => {
                                     <input onChange={(e) => setContactNumber(e.target.value)} required type="number" className="form-control" id="numberId" />
                                 </div>
                                 <div className="form-group">
-                                    <label htmlFor="aadharId">Aadhar Card Number</label>
+                                    <label htmlFor="aadharId">CNIC Number</label>
                                     <input onChange={(e) => setAadharCard(e.target.value)} type="number" className="form-control" id="aadharId" />
                                 </div>
                                 <div class="row justify-content-center">

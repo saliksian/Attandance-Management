@@ -100,9 +100,9 @@ const AdminAddFaculty = () => {
                                                     'is-invalid': error.department
                                                 })} id="departmentId">
                                                 <option>Select</option>
-                                                <option value="E.C.E">E.C.E</option>
-                                                <option value="C.S.E">C.S.E</option>
-                                                <option value="E.E.E">E.E.E</option>
+                                                <option value="C.S">C.S</option>
+                                                <option value="S.E">S.E</option>
+                                                <option value="LAW">LAW</option>
                                                 <option value="I.T">I.T</option>
                                                 <option value="Mechanical">Mechanical</option>
                                                 <option value="Civil">Civil</option>
@@ -133,7 +133,7 @@ const AdminAddFaculty = () => {
                                             <input onChange={(e) => setFacultyMobileNumber(e.target.value)} type="number" className="form-control" id="numberId" />
                                         </div>
                                         <div className="form-group">
-                                            <label htmlFor="aadharId">Aadhar Card Number</label>
+                                            <label htmlFor="aadharId">CNIC Number</label>
                                             <input onChange={(e) => setAadharCard(e.target.value)} type="number" className="form-control" id="aadharId" />
                                         </div>
                                     </div>

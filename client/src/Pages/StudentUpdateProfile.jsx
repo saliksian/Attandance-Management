@@ -83,7 +83,7 @@ const StudentUpdateProfile = () => {
                                         <input onChange={(e) => setFatherContactNumber(e.target.value)} type="number" className="form-control" id="fathercnId" />
                                     </div>
                                     <div className="form-group">
-                                        <label htmlFor="aadharId">Aadhar Card Number</label>
+                                        <label htmlFor="aadharId">CNIC Number</label>
                                         <input onChange={(e) => setAadharCard(e.target.value)} type="number" className="form-control" id="aadharId" />
                                     </div>
                                     <button type="submit" className="btn btn-primary">Update</button>

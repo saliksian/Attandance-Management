@@ -57,7 +57,7 @@ const RecieverUserDetails = (props) => {
                                                 <td>{store.student.regNumStudent.registrationNumber}</td>
                                             </tr>
                                             <tr>
-                                                <td>Year</td>
+                                                <td>Semester</td>
                                                 <td>{store.student.regNumStudent.year}</td>
                                             </tr>
                                             <tr>

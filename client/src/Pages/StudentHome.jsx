@@ -48,7 +48,7 @@ const Home = () => {
                                                 <td>{store.student.student.student.dob}</td>
                                             </tr>
                                             <tr>
-                                                <td>Year</td>
+                                                <td>Semester</td>
                                                 <td>{store.student.student.student.year}</td>
                                             </tr>
                                             <tr>
@@ -76,7 +76,7 @@ const Home = () => {
                                                     store.student.student.student.studentMobileNumber : "NA"}</td>
                                             </tr>
                                             <tr>
-                                                <td>Aadhar Card</td>
+                                                <td>CNIC</td>
                                                 <td>{store.student.student.student.aadharCard ? store.student.student.student.aadharCard : "NA"} </td>
                                             </tr>
                                             <tr>
