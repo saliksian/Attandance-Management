@@ -97,13 +97,17 @@ const StudentDetails = () => {
                                             </select>
                                         </div>
                                         <div className="form-group">
-                                            <label htmlFor="yearId">Year</label>
+                                            <label htmlFor="yearId">Semester</label>
                                             <select onChange={(e) => setYear(e.target.value)} className="form-control" id="yearId">
                                                 <option>Select</option>
                                                 <option value="1">1</option>
                                                 <option value="2">2</option>
                                                 <option value="3">3</option>
                                                 <option value="4">4</option>
+                                                <option value="5">5</option>
+                                                <option value="6">6</option>
+                                                <option value="7">7</option>
+                                                <option value="8">8</option>
                                             </select>
                                         </div>
                                         <div className="form-group">
